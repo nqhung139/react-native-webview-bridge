@@ -19,6 +19,7 @@ var invariant = require('invariant');
 var keyMirror = require('keymirror');
 var resolveAssetSource = require('react-native/Libraries/Image/resolveAssetSource');
 var PropTypes = require('prop-types')
+React.createClass=require('create-react-class');
 
 var {
   ReactNativeViewAttributes,
